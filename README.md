@@ -39,16 +39,16 @@ If you think this library is useful, please press the star button at the top.
 We will use `subscribe` for receiver data or event handler.
 
 ```Kotlin
-    RxBus.subscribe(1, this) { it: Any
-        Log.d(tag : "freddie", lifecycle : it.toString())
-    }
+RxBus.subscribe(1, this) { it: Any
+    Log.d(tag : "freddie", lifecycle : it.toString())
+}
 ```
 
 
 #### - Publish
 When an event occurs
 ```Kotlin
-    RxBus.publish(subject: 1, message: "hello freddie")
+RxBus.publish(subject: 1, message: "hello freddie")
 
 ```
 
