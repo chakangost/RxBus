@@ -1,0 +1,3 @@
+include ':RxBus'
+include ':app'
+rootProject.name = "LibTestProject"
