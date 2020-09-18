@@ -1,6 +1,7 @@
 # What is RxBus?
 
 RxBus makes it easy to subscriber and publish android observer pattern.
+It is reactivex style lib.
 
 
 
