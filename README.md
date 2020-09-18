@@ -14,7 +14,17 @@ Edit `root/app/build.gradle` like below.
 #### Kotlin Base
 ```gradle
 dependencies {
-    implementation 'gun0912.ted:tedpermission-rx1:x.y.z'
+    implementation 'com.github.chakangost:RxBus:1.0'
+}
+```
+
+Edit `root/build.gradle` like below.
+```gradle
+allprojects {
+    repositories {
+        .....
+        maven { url 'https://jitpack.io' }
+    }
 }
 ```
 
