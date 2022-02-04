@@ -1,3 +1,5 @@
+package com.android.freddie.rxbus
+
 import android.os.Bundle;
 import android.util.SparseArray;
 
