@@ -52,6 +52,14 @@ RxBus.publish(subject: 1, message: "hello freddie")
 
 ```
 
+#### - Unregister
+When lifecycle destory
+```Kotlin
+RxBus.unregister(this)
+
+```
+
+You must unsubscribe from the subscriber this context.
 
 
 ## License 
